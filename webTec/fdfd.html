@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/contactStyles.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+ <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body style="background: url(images/noise.jpg);">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand" style="font-weight: bolder;color: white;font-family: 'Georgia','Times New Roman';">
+                    <strong> Damascus </strong>
+                </span>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="Nav">
+
+                <ul class="nav navbar-nav">
+        <li><a href="Index.html">My City</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="contactMe.html">Contact Me</a></li>
+                  
+      </ul>
+             
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">
+                          <img src="images/tr.png" width="30px" height="30px">
+                      </a></li>
+                    <li><a href="#" target="_blank">
+                         <img src="images/en.png" width="30px" height="30px">
+                    </a></li>
+                </ul>
+              
+                <ul class="nav navbar-nav  navbar-right pad10">
+                    <div class="btn-group" >
+                        <a href="#" class="btn btn-primary" id="myBtn1">
+                        <span class="glyphicon glyphicon-user"></span> Üye-Ol </a>
+                         <a href="#" class="btn btn-success" id="myBtn">
+                        <span class="glyphicon glyphicon-log-in"></span> Giriş </a>
+                    </div> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--End Of Head-->
+
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
