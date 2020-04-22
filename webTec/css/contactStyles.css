@@ -45,11 +45,3 @@ input[type=submit]:hover {
 input[type=button]:hover {
   background-color: #e21411d0;
 }
-
-#contactFormStyle{
-  border-radius: 5%;
-  box-sizing: border-box;
-  padding: 20px;
-  background-color: rgb(158, 204, 245);
-  padding-bottom: 15px;
-}

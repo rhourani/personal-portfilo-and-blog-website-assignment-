@@ -56,6 +56,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="Index.html">My City</a></li>
                     <li><a href="about.html">About</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
                     <li><a href="CV.html">CV</a></li>
                     <li><a href="contactMe.html">Contact Me</a></li>
                     
@@ -84,24 +85,26 @@
 
 
 
-	<div id="contactFormStyle">		
-		<div class="container">
+	<div>		
+		<div class="container" style= "width:65%;" >
 			<h3>Contact Form</h3>
-		  <form  id = "contactForm" action="/action_page.php">
+		  <form name= "ContactFormValidation" id = "contactForm" action="PostFormInfo.php" onsubmit="return validateData()" method="POST">
 			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
 		
 			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 		
 			<label for="email">E-Mail</label>
-			<input type="email" id="email" name="email" required>
-
+            <input type="text" id="email" name="email">
+            
+			<label for="ltitle">Title</label>
+			<input type="text" id="ltitle" name="ltitle">
 		
-			<label for="subject">Subject</label>
-			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+			<label for="subject">Mesaage</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 		
-			<input type="submit" value="Submit">
+			<input type="submit" onclick=" return ValidateEmail(document.ContactFormValidation.email)" value="Submit">
 			<input type="button" onclick="resetFormFunction()" value="Clean Fields">
 		  </form>
 		</div>
@@ -121,8 +124,63 @@
 		}
 		
 	}
+
 </script>
 
+<script>
+        function validateData(){
+        var varFirstname = document.forms["ContactFormValidation"]["firstname"].value;
+        var varLastname = document.forms["ContactFormValidation"]["lastname"].value;
+        var varEmail = document.forms["ContactFormValidation"]["email"].value;
+        var varLtitle = document.forms["ContactFormValidation"]["ltitle"].value;
+        var varSubject = document.forms["ContactFormValidation"]["subject"].value;
+
+        if (varFirstname == ""){
+            alert("First name field can not be empty");
+            document.ContactFormValidation.firstname.focus();
+            return false;
+        }
+
+        if (varLastname == ""){
+            alert("Last name field can not be empty");
+            document.ContactFormValidation.lastname.focus();
+            return false;
+        }
+
+        if (varEmail == ""){
+            alert("Email field can not be empty");
+            document.ContactFormValidation.email.focus();
+            return false;
+        }
+
+        if (varLtitle == ""){
+            alert("Title field can not be empty");
+            document.ContactFormValidation.ltitle.focus();
+            return false;
+        }
+
+        if (varSubject == ""){
+            alert("Message field can not be empty");
+            document.ContactFormValidation.subject.focus();
+            return false;
+        }
+    }
+</script>
+
+<script>
+
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(ContactFormValidation.email.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    document.ContactFormValidation.email.focus();
+    return (false)
+}
+
+</script>
 
 
 
