@@ -72,7 +72,7 @@ Oluşturulmaya planlıyordur.
 Ana Sayfa – Benim Şehrim (My City)
 İçinde HTML, CSS teknolojileri kullanarak bir web sayfası oluşturuldu, bir slayttan ve iki section olarak sayfayı tasarlandı. Ayrıca Nave Bar Menu ve Footer ekledim. 
 
-<img src="webTecReportImages/main%20page.png">
+<img src="webTecReportImages/main%20page.png" align="center">
 
 Slayt üzerinde tılklayınca, ilgili içerik makale sayfasına yönlendirme olur.
 Aynı şekilde sol kısımda var olan makaleler üzerinde tıklandığında ilgili içerik açılır.
@@ -80,7 +80,7 @@ Sağ kısım ise, Gallery olan, her hangi bir resim üzerinde tıkladığımızd
 CSS dosyaları: sitede mevcut sayfaları, her sayfa için ayrı bir style dosyası oluşturdum, sonra da hepsini bir CSS klasör içine aktardıktan sonra, istediğim sayfada istenilen style dosyası çağrmiştim.
 Dosyalar:
 
-<img src="webTecReportImages/css.png" align="left">
+<img src="webTecReportImages/css.png" align="center">
 
 
 
@@ -88,7 +88,7 @@ Dosyalar:
 
 Responsive Özelliği:
 
-<img src="webTecReportImages/responsiv.png">
+<img src="webTecReportImages/responsiv.png" align="center">
  
 
 Projenin dosya hiyerarşi – CSS dosyalar ayrı tutulmuş
@@ -112,7 +112,7 @@ Projenin dosya hiyerarşi – CSS dosyalar ayrı tutulmuş
 
 Hakkımda - (About) 
 
-<img src="webTecReportImages/about.png">
+<img src="webTecReportImages/about.png" align="center">
 
 
 Sayfayı Html kullanarak bir Row dan ve bir ul, div ve benzeri html componentlerinden oluşuan bir sayfa. Ayrıca, alt kısımda Benim Resimlerim olarak bir slayder ekledim.
@@ -136,7 +136,7 @@ Sayfayı Html kullanarak bir Row dan ve bir ul, div ve benzeri html componentler
 
 Mirasimiz - (Heritage) sayfası
 
-<img src="webTecReportImages/Heritage.png">
+<img src="webTecReportImages/Heritage.png" align="center">
 
 Sayfayı daha çok wiki makalesi gibi tasarladım. Üst kısım bir Row ve iki Col (col-8 ve col-4) dan oluşuyor. Resim için alt kısım ve üst kısım oalrak, bir resim ve alt’tan olşmaktadır.
 Sonra her diğer kısım için bir row olarak tanımlayarak, içinde bir yada birden fazla paragraf ekledim.
@@ -159,7 +159,7 @@ Ayrıca Arakaplan bayaz-noktalı resim ekledim.
 
 Özgeçmiş (CV)
 
-<img src="webTecReportImages/CV.png">
+<img src="webTecReportImages/CV.png" align="center">
 
 Özgeçmiş sayfası tasarımında, daha çok table ve ul’lardan oluşuyor, Nav bar ve footer yanına, arkaplan bayaz noktalı resim olarak, HTML ve CSS teknolojilerden tamamen oluşan bir sayfadır.
 
@@ -181,13 +181,13 @@ Ayrıca Arakaplan bayaz-noktalı resim ekledim.
 
 İletişim Formu (Contact me) sayfası
 
-<img src="webTecReportImages/Contact.png">
+<img src="webTecReportImages/Contact.png" align="center">
 
 İletişim formu tasarımında table bileşenleri, ve html’de input özelliği ve onun bileşenleri kullandım, tasarım yukardaki gibi yaptım.
 
 Ayrıca iletişim sayfada, iletişim formundaki gerekli kontrol işlemleri javaScript kullanarak denetledim: Aşağıdaki resimde bir örneğidir.
 
-<img src="webTecReportImages/Java%20Script%20contact%20form.png">
+<img src="webTecReportImages/Java%20Script%20contact%20form.png" align="center">
 
 
 
@@ -197,7 +197,7 @@ Ayrıca da, iletişim formundaki alanları temizlemek için de java Scripti kull
 
 Mail formatında mı? Java script ile kontrol şlemi
 
-<img src="webTecReportImages/mail.png">
+<img src="webTecReportImages/mail.png" align="center">
 
 
 
@@ -208,7 +208,7 @@ Mail formatında mı? Java script ile kontrol şlemi
 
 Submit botununa tıklayınca da, formun içindeki veriler bir login_process.php sayfasına gonderek, formun içindeki bilgileri, o sayfa içinde bir table ve özel tasarım şeklinde gösterilir.
  
-<img src="webTecReportImages/form%20data.png">
+<img src="webTecReportImages/form%20data.png" align="center">
 
 
 
@@ -232,32 +232,32 @@ Submit botununa tıklayınca da, formun içindeki veriler bir login_process.php 
 Login Sayfası
 Login.php
 
-<img src="webTecReportImages/login.png">
+<img src="webTecReportImages/login.png" align="center">
 
 Login işlemi, ödev dokümaninde gibi istenindiği gibi yapıldı. Login bilgileri kontrol edildiketen sonra:
 1.	Başarı login ise:
 
-<img src="webTecReportImages/login%20ok.png">
+<img src="webTecReportImages/login%20ok.png" align="center" align="center">
 
 
 2.	Başarısiz login ise:
 a.	Başarısizlik sebebi:
 i.	Boş alan mı?
 
-<img src="webTecReportImages/blank%20login.png">
+<img src="webTecReportImages/blank%20login.png" align="center">
 
 Boş bırakılırsa, aslında bunu ilk önce HTML ile kontrol etmesi daha mantkıl bana geldi ama belki istenilen tam olarak tam anlayamamış olabilirim, PHP ile kontrol işlemi yapmışım. php ile GET işlemi yaparak, başarısızlığı oluşturan sebebi alabiliyorum.
  
 ii.	Yanlış kullanıcı yada şifre mi?
 Kontrol işelminin sonucu yanlış şifre yada kullanıcı ismi sayısından ise, aynı şekilde php ile GET işlemi yaparak, başarısızlığı oluşturan sebebi alabiliyorum.
 
-<img src="webTecReportImages/user%20failed%20login.png">
+<img src="webTecReportImages/user%20failed%20login.png" align="center">
 
 
 
 İçerik sayfalardan bir:
 
-<img src="webTecReportImages/Article.png">
+<img src="webTecReportImages/Article.png" align="center">
 
 
 
