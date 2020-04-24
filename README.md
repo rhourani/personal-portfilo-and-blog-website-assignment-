@@ -88,13 +88,13 @@ Dosyalar:
 
 Responsive Özelliği:
 
-<img src="webTecReportImages/responsive.png">
+<img src="webTecReportImages/responsiv.png">
  
 
 Projenin dosya hiyerarşi – CSS dosyalar ayrı tutulmuş
 
-<img src="webTecReportImages/hirarşy%2001.png" align="left">
-<img src="webTecReportImages/hirarşy%201.png" align="left">
+<img src="webTecReportImages/hirarşy%2001.png" align="center">
+<img src="webTecReportImages/hirarşy%201.png" align="center">
 
 
 
