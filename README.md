@@ -71,7 +71,7 @@ Oluşturulmaya planlıyordur.
 
 Ana Sayfa – Benim Şehrim (My City)
 İçinde HTML, CSS teknolojileri kullanarak bir web sayfası oluşturuldu, bir slayttan ve iki section olarak sayfayı tasarlandı. Ayrıca Nave Bar Menu ve Footer ekledim. 
- <img src="webTecReportImages/main%20%page.png">
+ <img src="webTecReportImages/main%20page.png">
 
 Slayt üzerinde tılklayınca, ilgili içerik makale sayfasına yönlendirme olur.
 Aynı şekilde sol kısımda var olan makaleler üzerinde tıklandığında ilgili içerik açılır.
@@ -199,7 +199,7 @@ Mail formatında mı? Java script ile kontrol şlemi
 
 Submit botununa tıklayınca da, formun içindeki veriler bir login_process.php sayfasına gonderek, formun içindeki bilgileri, o sayfa içinde bir table ve özel tasarım şeklinde gösterilir.
  
-<img src="webTecReportImages/form%20%data.png">
+<img src="webTecReportImages/form%20data.png">
 
 
 
@@ -226,18 +226,18 @@ Login.php
 
 Login işlemi, ödev dokümaninde gibi istenindiği gibi yapıldı. Login bilgileri kontrol edildiketen sonra:
 1.	Başarı login ise:
-<img src="webTecReportImages/login%20%ok.png">
+<img src="webTecReportImages/login%20ok.png">
 
 2.	Başarısiz login ise:
 a.	Başarısizlik sebebi:
 i.	Boş alan mı?
-<img src="webTecReportImages/blank%20%login.png">
+<img src="webTecReportImages/blank%20login.png">
 
 Boş bırakılırsa, aslında bunu ilk önce HTML ile kontrol etmesi daha mantkıl bana geldi ama belki istenilen tam olarak tam anlayamamış olabilirim, PHP ile kontrol işlemi yapmışım. php ile GET işlemi yaparak, başarısızlığı oluşturan sebebi alabiliyorum.
  
 ii.	Yanlış kullanıcı yada şifre mi?
 Kontrol işelminin sonucu yanlış şifre yada kullanıcı ismi sayısından ise, aynı şekilde php ile GET işlemi yaparak, başarısızlığı oluşturan sebebi alabiliyorum.
-<img src="webTecReportImages/user%20%failed%20%login.png">
+<img src="webTecReportImages/user%20failed%20login.png">
 
 
 
