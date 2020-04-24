@@ -71,7 +71,7 @@ Oluşturulmaya planlıyordur.
 
 Ana Sayfa – Benim Şehrim (My City)
 İçinde HTML, CSS teknolojileri kullanarak bir web sayfası oluşturuldu, bir slayttan ve iki section olarak sayfayı tasarlandı. Ayrıca Nave Bar Menu ve Footer ekledim. 
- <img src="images/11.jpg">
+ <img src="tree/master/webTec/Images/11.jpg">
 
 Slayt üzerinde tılklayınca, ilgili içerik makale sayfasına yönlendirme olur.
 Aynı şekilde sol kısımda var olan makaleler üzerinde tıklandığında ilgili içerik açılır.
